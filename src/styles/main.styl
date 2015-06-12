@@ -1,0 +1,69 @@
+// New to Stylus? Check out http://learnboost.github.io/stylus
+// Use modern CSS thanks to Autoprefixer: https://github.com/ai/autoprefixer
+
+// Import CSS from "node_modules" and "bower_components"
+// thanks to Stylus' "import css" and "paths" options
+@import 'prism/themes/prism-coy.css'
+// Check out "bower_components/prism/themes/" for available themes
+
+
+// *************
+// VARIABLES
+// *************
+ 
+$base_font_size = 16
+$base_font_size_ems = unit($base_font_size / 16, em)
+$px = unit(1 / $base_font_size, rem)
+$type_regular_font_family = 'Indie Flower'
+$type_h_font_family = 'Bangers'
+$type_h_font_lineheight = 1.313em
+$type_wrapper_font_size = 18 * $px
+$layout_site_width = 1200
+$color_site_bg = lighten( black, 10% )
+$color_wrapper_bg = white
+$color_text_default = black
+$color_link_default = #c00
+$color_link_hover = saturate($color_link_default, 70%)
+$color_highlight = #ffc600
+$color_shadow = black
+raised()
+    box-shadow 1 * $px 1 * $px 3 * $px rgba(0,0,0,.5)
+.pane
+    display table
+    width auto
+    height auto
+    position relative
+    padding 0 * $px
+.posisi
+    padding-left : 45px;
+
+li 
+	text-align: justify;
+	font-size : 13px;
+
+.aku
+    background-image: url('../images/doko1.png');
+    background-color: white;
+    background-repeat: repeat-x;
+h1
+    color:#82CAFA ;
+    text-shadow 7 * $px 8 * $px 0 grey
+.hello
+        font-size 18 * $px
+        h1,h3
+            color $color_highlight
+            font-size 3em
+            width auto
+            height auto
+            line-height 0.01em
+            margin-bottom 0.01em
+            font-family 'Bangers'
+            text-shadow 12 * $px 12 * $px 0 $color_shadow, -3 * $px -3 * $px 0 $color_shadow, 3 * $px -3 * $px 0 $color_shadow, -3 * $px 3 * $px 0 $color_shadow, 3 * $px 3 * $px 0 $color_shadow
+        h4
+            color $color_highlight
+            text-shadow 12 * $px 12 * $px 0 $color_shadow, -3 * $px -3 * $px 0 $color_shadow, 3 * $px -3 * $px 0 $color_shadow, -3 * $px 3 * $px 0 $color_shadow, 3 * $px 3 * $px 0 $color_shadow
+
+        
+        h5,
+            font-family 'Indie Flower'
+            color $color_highlight

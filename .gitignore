@@ -1,3 +1,4 @@
 node_modules
-bower_componentst
+bower_components
+dist
 bespoke-theme-*

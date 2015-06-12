@@ -1,0 +1,10 @@
+untuk buat baru
+1. buka cmd
+2. folder penyimpanan persentasi
+3. ketikan : git clone https://github.com/Mikroskil/CHRIPS.git
+4. git remote add <nama pengguna> https://github.com/Mikroskil/CHRIPS.git
+5. git pull <nama remote> <nama cabang>
+6. lakukan pengeditan
+7. setelah selesai lakukan : git add *
+8. git commit -m "<nama save>"
+9. git push <nama remote> <nama cabang>
